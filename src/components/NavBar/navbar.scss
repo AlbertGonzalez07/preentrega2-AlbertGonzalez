@@ -1,0 +1,34 @@
+.navbar{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background:linear-gradient(rgb(58, 56, 114),#0a0630);
+        color:white;
+
+     .brand{
+            display: flex;
+            align-items: center;
+             img{
+                 width: 100px;
+                }
+             .title-brand{
+               color: white;
+             }
+           }
+
+    .categories{
+               display: flex;
+               list-style: none;
+                 .category{
+                  padding: 0 60px;
+                  font-size: 18px;
+                  color: white;
+                   }
+              }
+
+   .cartwidget{
+               display: flex;
+              }
+}
